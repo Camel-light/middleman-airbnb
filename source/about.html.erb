@@ -1,3 +1,7 @@
+---
+title: Le Wagon - Middleman - About
+---
+
 <div id="about">
   <div class="about-content">
     <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
@@ -10,7 +14,7 @@
           <h2><%= user.name %></h2>
           <p>
             <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fa fa-github"></i> <%= user.pthimon9 %>
+              <i class="fa fa-github"></i> <%= user.github_nickname %>
             <% end %>
           </p>
         </li>
